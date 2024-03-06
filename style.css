@@ -1,0 +1,142 @@
+* {
+    
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+ }
+ 
+.logoAlura {
+    margin-top: 90px;
+    margin-left: 10px; 
+    width: 2%;
+
+ }
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    padding: 30px;
+    border: none;
+    color:#0a3871;
+    margin-top:90px;
+    text-transform: lowercase;
+    
+ }
+
+::placeholder { color:#0a3871; }
+    .text-area:focus {
+        outline: none;
+}
+
+.mensagem {
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    width: 350px;
+    height: 600px;
+    margin-top: -40px;
+    margin-left: 450px;
+    padding-left: 60px;
+    padding-top: 300px;
+    position: fixed;
+
+}
+
+
+.mensagem-background {   
+    background-image: url('./imagens/boneco.png');
+    
+}
+
+
+.mensagem-criptografada {
+    background-color: white;
+    word-wrap: break-word;
+
+}
+
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left:20px;
+    width: 328px;
+
+}
+
+.btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;  
+    margin-left:70px;
+    width: 336px;   
+}
+
+.btn-copiar {
+    border: 0.1px solid #0a3871;
+    border-radius: 15px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 488px;
+    margin-top: 750px;
+    position: absolute;
+    width: 336px;
+
+}
+
+.informacao h6 {
+    color: #495057;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: 350px;
+    margin-bottom: 5px;
+
+}
+
+.informacao h6::before {
+    content: "⚠️";
+    margin-right: 8px;
+
+}
+
+.titulo {
+    margin-top: 50p;
+    color: #0a3871;
+    font-size: 25px;
+    margin-left: 230px;
+
+
+}
+
+
+
+
+
+
